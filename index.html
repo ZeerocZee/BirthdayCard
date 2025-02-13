@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday Mom!</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Add the canvas-confetti library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 <body>
     <div class="card">
@@ -17,10 +19,17 @@
                 <p class="message">Dear Mom,<br><br>
                 On your special day, I want to thank you for all the love and care you've given me. You are my inspiration and my guiding light. Wishing you a day filled with joy, laughter, and all the things you love the most!<br><br>
                 With all my love,<br>
-                Shafique</p>
+                Ficky</p>
             </div>
         </div>
     </div>
+
+    <!-- Add audio for the Happy Birthday song -->
+    <audio id="birthdaySong" src="happy-birthday-song.mp3" loop autoplay></audio>
+
+    <!-- Add a mute button -->
+    <button id="muteButton">Mute</button>
+
     <script src="script.js"></script>
 </body>
 </html>
